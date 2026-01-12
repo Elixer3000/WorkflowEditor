@@ -39,6 +39,9 @@ MinimalAI/
 
 ---
 
+## Demo
+https://github.com/user-attachments/assets/b7ac8b52-3e60-48f7-aff7-e52468a9f238
+
 ## Setup
 
 1. **Install dependencies**:
