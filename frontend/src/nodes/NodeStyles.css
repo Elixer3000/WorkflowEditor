@@ -1,0 +1,85 @@
+.custom-node {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+
+.custom-node:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+.custom-node.selected {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 6px 6px 0 0;
+}
+
+.node-icon {
+  font-size: 20px;
+}
+
+.node-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.node-content {
+  padding: 12px 16px;
+}
+
+.node-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.node-method {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.node-url {
+  word-break: break-all;
+  color: #666;
+}
+
+.node-expression,
+.node-condition {
+  color: #666;
+  font-style: italic;
+}
+
+.http-request-node {
+  border-left: 4px solid #007bff;
+}
+
+.transform-node {
+  border-left: 4px solid #28a745;
+}
+
+.filter-node {
+  border-left: 4px solid #ffc107;
+}
+
